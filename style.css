@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #2980b9, #8e44ad); /* Gradient background */
+    color: #fff; /* Text color for better contrast with the background */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for better readability */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff; /* Underline effect */
+}
+
+.section {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for better readability */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Add this CSS to styles.css */
+
+header h1 {
+    font-size: 48px; /* Adjust the font size as needed */
+    color: #fff; /* Set the text color */
+    text-shadow: 0 0 10px blueviolet, 0 0 20px blueviolet, 0 0 30px blueviolet, 0 0 40px blueviolet, 0 0 50px blueviolet, 0 0 60px blueviolet, 0 0 70px blueviolet, 0 0 80px blueviolet; /* Chroma glow effect */
+    animation: chromaGlow 2s infinite alternate; /* Animation */
+}
+
+@keyframes chromaGlow {
+    from {
+        text-shadow: 0 0 10px blueviolet, 0 0 20px blueviolet, 0 0 30px blueviolet, 0 0 40px blueviolet, 0 0 50px blueviolet, 0 0 60px blueviolet, 0 0 70px blueviolet, 0 0 80px blueviolet; /* Initial glow effect */
+    }
+    to {
+        text-shadow: 0 0 20px blueviolet, 0 0 40px blueviolet, 0 0 60px blueviolet, 0 0 80px blueviolet, 0 0 100px blueviolet, 0 0 120px blueviolet, 0 0 140px blueviolet, 0 0 160px blueviolet; /* Final glow effect */
+    }
+}
+/* Add this CSS to styles.css */
+
+.announcement {
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Add padding for better spacing */
+}
+
+.announcement a {
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+}
+
+.announcement a:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #0056b3; /* Change background color on hover */
+}
+.custom-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+}
+
+.custom-link:hover,
+.custom-link:visited {
+    color: inherit; /* Use the default text color even when visited or hovered */
+}
